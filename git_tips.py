@@ -41,5 +41,6 @@ git branch -d name_branch       # безопасное удаление ветк
 
 git merge branch    # сливает указанную ветку в текущую
 
-
+git push #
+git stash #
 """
