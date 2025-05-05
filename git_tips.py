@@ -40,4 +40,8 @@ git branch -d name_branch       # безопасное удаление ветк
 ssh_keygen          # создание ключа
 
 
+
+
+
+main branch !!!!!!!!!!!!
 """
