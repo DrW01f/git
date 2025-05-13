@@ -43,4 +43,10 @@ git merge branch    # сливает указанную ветку в текущ
 
 git push #
 git stash #
+
+
+
+
+new info in new branch
+for merge in main branch
 """
