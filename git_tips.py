@@ -1,15 +1,17 @@
 """
-git config --global user.email "ВАШ email"
-git config --global user.name "ВАШЕ Имя"
+ssh_keygen          # создание ключа
+git config --global user.email "email" # устанавливает почту, которая будет отображаться при коммите
+git config --global user.name "name"   # устанавливает имя, которое будет отображаться при коммите
 git remote add origin https://github.com/DrW01f/Test.git
 git branch -M main
 git push -u origin main
 git push  --set-upstream origin description
 git push origin --delete <branch_name>
 
+git diff            #
 git --version       # версия git
 git remote -v       #
-git status          #
+git status          # статус пше в текущем репозитории
 git log             # показывает подробную историю коммитов (с датой-временем, автором, текстом коммита)
 git log --oneline   # показывает историю кратко в 1 строку
 git log --graph
@@ -24,10 +26,10 @@ git commit -am                  # git add + git commit "commit_text"
 
 git restore file_name           # отмена коммита для файла (откат на предыдущий)
 
-git checkout hash_commit        #
-git diff    #
+git checkout hash_commit        # смена на коммит или ветку
+git checkout -b branch_name     # создает новую ветку и сразу переходит на нее
 
-git reset hash_commit           #
+git reset hash_commit           # отменяет коммит
 git reset --hard hash_commit    # отмена коммита (без указания хэша сбрасывает до последнего коммита)
 git revert hash_commit          # не отменяет, а добавляеет новый коммит, отменеяющий старый
 
@@ -37,11 +39,15 @@ git branch                      # список веток в репозитор�
 git branch name_branch          # создание новой ветки с именем name_branch
 git branch -d name_branch       # безопасное удаление ветки
 
-ssh_keygen          # создание ключа
+git merge branch    # сливает указанную ветку в текущую
+
+git push #
+git stash #
 
 
 
 
+<<<<<<< HEAD
 
 main branch !!!!!!!!!!!!
 
@@ -49,4 +55,8 @@ main branch !!!!!!!!!!!!
 this is no info in main branch
 
 
+=======
+new info in new branch
+for merge in main branch
+>>>>>>> merge_branch
 """
