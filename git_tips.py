@@ -8,13 +8,13 @@ git push -u origin main
 git push  --set-upstream origin description
 git push origin --delete <branch_name>
 
-git diff            #
+git diff            # разница между текущим состоянием и последним коммитом
 git --version       # версия git
-git remote -v       #
-git status          # статус пше в текущем репозитории
-git log             # показывает подробную историю коммитов (с датой-временем, автором, текстом коммита)
-git log --oneline   # показывает историю кратко в 1 строку
-git log --graph
+git remote -v       # список подключенных соединиений
+git status          # статус git в текущем репозитории
+git log             # подробная история коммитов (с датой-временем, автором, текстом коммита)
+git log --oneline   # краткая история в 1 строку
+git log --graph     #
 
 git init                        # создание папки с git
 git add file_name               # добавление файла в отслеживание git (без имени добавит все файлы)
